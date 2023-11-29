@@ -1,0 +1,6 @@
+:host {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr min-content;
+  background: var(--background);
+}
