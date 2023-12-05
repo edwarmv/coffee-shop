@@ -1,0 +1,12 @@
+:host {
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  row-gap: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 135px);
+  gap: 16px;
+  justify-content: center;
+}

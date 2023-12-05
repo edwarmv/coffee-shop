@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { BottomBarComponent } from './shared/components/bottom-bar/bottom-bar.component';
-import '@coffee-shop-ui/icon';
-import '@coffee-shop-ui/button';
+import 'coffee-shop-ui';
 
 @Component({
   selector: 'app-root',
